@@ -16,7 +16,7 @@ def load_data():
     path = DATA_PROCESSED / "neuropulse_pns_depressao.csv"
     df = pd.read_csv(path)
 
-    # Mapeia nome do estado -> sigla ISO (para o mapa)
+    # Mapeia o nome do estado -> sigla ISO (para o mapa)
     mapa_uf = {
         "Rondonia": "BR-RO",
         "Acre": "BR-AC",
