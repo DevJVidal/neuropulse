@@ -1,0 +1,25 @@
+# Ambiente virtual (não deve ir pro GitHub)
+venv/
+.venv/
+
+# Caches do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários / logs
+*.log
+
+# Configurações de editor
+.vscode/
+.idea/
+
+# Cache do Streamlit
+.streamlit/
+
+# Arquivos do Windows
+Thumbs.db
+
+# (Opcional) Caso você NÃO queira subir os dados brutos
+data/raw/
