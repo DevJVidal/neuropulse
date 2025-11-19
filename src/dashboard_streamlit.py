@@ -67,14 +67,230 @@ st.set_page_config(
     page_icon="🧠",
 )
 
+# ================================
+# ESTILO CUSTOMIZADO (SIDEBAR + APP)
+# ================================
+
+st.markdown(
+    """
+    <style>
+
+    /* ===== SIDEBAR GERAL ===== */
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #151822, #0b0d17);
+        border-right: 1px solid rgba(255,255,255,0.12);
+    }
+
+    /* Espaçamento interno da sidebar */
+    [data-testid="stSidebar"] .block-container {
+        padding-top: 1.8rem;
+        padding-bottom: 1.8rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    /* Título "Filtros" */
+    [data-testid="stSidebar"] h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #f7931e;
+        margin-bottom: 1rem;
+    }
+
+    /* Labels (Estados, Sexo, Faixa de idade) */
+    [data-testid="stSidebar"] label {
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: #c9d1f5 !important;
+        margin-bottom: 0.25rem;
+    }
+
+    /* Blocos dos inputs (multiselect e selects) */
+    [data-testid="stSidebar"] .stMultiSelect,
+    [data-testid="stSidebar"] .stSelectbox {
+        background-color: #0f111a;
+        border-radius: 12px;
+        padding: 0.25rem 0.4rem;
+        box-shadow: 0 10px 24px rgba(0,0,0,0.45);
+        margin-bottom: 1rem;
+    }
+
+    /* Borda interna do componente */
+    [data-testid="stSidebar"] .stMultiSelect > div,
+    [data-testid="stSidebar"] .stSelectbox > div {
+        border-radius: 10px !important;
+        border: 1px solid rgba(255,255,255,0.16) !important;
+        background-color: #111320 !important;
+    }
+
+    /* Texto dentro dos widgets */
+    [data-testid="stSidebar"] .stMultiSelect span,
+    [data-testid="stSidebar"] .stSelectbox span {
+        color: #f5f7ff !important;
+        font-size: 0.9rem;
+    }
+
+    /* Tags do multiselect (UFs selecionadas) */
+    [data-testid="stSidebar"] [data-baseweb="tag"] {
+        background-color: #f7931e !important;
+        color: #ffffff !important;
+        border-radius: 999px !important;
+        padding: 0.15rem 0.55rem !important;
+        font-size: 0.8rem !important;
+        font-weight: 600;
+        border: none !important;
+    }
+
+    /* Ícone de “x” da tag */
+    [data-testid="stSidebar"] [data-baseweb="tag"] svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    /* Pequeno separador entre grupos de filtros */
+    [data-testid="stSidebar"] hr {
+        margin: 0.8rem 0 1rem 0;
+        border-color: rgba(255,255,255,0.08);
+    }
+
+    /* ===== FUNDO GERAL DO APP ===== */
+    [data-testid="stAppViewContainer"] {
+        background: radial-gradient(circle at top left, #1c2340 0, #050712 55%);
+        color: #f5f7ff;
+        font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    [data-testid="stHeader"] {
+        background: transparent;
+    }
+
+    .block-container {
+        padding-top: 1.6rem;
+        padding-bottom: 2rem;
+        max-width: 1200px;
+    }
+
+    /* Título principal */
+    [data-testid="stAppViewContainer"] h1 {
+        font-size: 2.4rem;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+
+    /* Subtítulos das seções (st.subheader) */
+    [data-testid="stAppViewContainer"] h3 {
+        font-size: 1.1rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #f7931e;
+        margin-top: 1.8rem;
+        margin-bottom: 0.6rem;
+    }
+
+    /* Texto normal */
+    [data-testid="stAppViewContainer"] p {
+        font-size: 0.95rem;
+        color: #d4ddff;
+    }
+
+    /* ===== CARDS DOS KPIs (st.metric) ===== */
+    [data-testid="stMetric"] {
+        background: #111320;
+        padding: 1rem 1.2rem;
+        border-radius: 18px;
+        border: 1px solid rgba(255,255,255,0.08);
+        box-shadow: 0 10px 26px rgba(0,0,0,0.55);
+    }
+
+    [data-testid="stMetricLabel"] {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #b4c0ff;
+    }
+
+    [data-testid="stMetricValue"] {
+        font-size: 1.6rem;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+    [data-testid="stMetricDelta"] {
+        font-size: 0.8rem;
+    }
+
+    /* ===== TABELA (st.dataframe) ===== */
+    .stDataFrame {
+        background: #111320 !important;
+        border-radius: 16px !important;
+        border: 1px solid rgba(255,255,255,0.08) !important;
+        box-shadow: 0 10px 26px rgba(0,0,0,0.55) !important;
+        padding: 0.4rem !important;
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+# ================================
+# FUNÇÃO PARA ESTILO DOS GRÁFICOS
+# ================================
+
+def aplica_estilo_fig(fig):
+    fig.update_layout(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(
+            family="Inter, system-ui, sans-serif",
+            color="#f5f7ff",
+        ),
+        margin=dict(l=20, r=20, t=40, b=40),
+    )
+    return fig
+
+
+# ================================
+# CARREGA OS DADOS
+# ================================
+
 df = load_data()
 
 st.title("🧠 NeuroPulse – Painel de Saúde Mental (PNS/IBGE)")
+
+# Badge / descrição inicial
 st.markdown(
     """
-Análise de **depressão diagnosticada por profissional de saúde mental**  
-Fonte: Pesquisa Nacional de Saúde (PNS 2019 – IBGE).
-"""
+    <div style="
+        display:flex;
+        flex-direction:column;
+        gap:4px;
+        margin-bottom: 1.4rem;
+    ">
+      <span style="
+        display:inline-flex;
+        align-items:center;
+        gap:6px;
+        font-size:0.8rem;
+        letter-spacing:0.14em;
+        text-transform:uppercase;
+        color:#b4c0ff;
+      ">
+        <span>●</span> Painel PNS 2019 · IBGE
+      </span>
+      <span style="font-size:0.95rem; color:#d4ddff;">
+        Análise da <strong>prevalência de depressão diagnosticada</strong> por profissional de saúde mental,
+        por estado, sexo e faixa etária.
+      </span>
+    </div>
+    """,
+    unsafe_allow_html=True,
 )
 
 # ================================
@@ -96,6 +312,15 @@ df_filt = df[
     & (df["sexo"] == sexo_sel)
     & (df["faixa_idade"] == faixa_sel)
 ]
+
+# ===== Caso sem estados selecionados / sem dados =====
+if df_filt.empty:
+    st.info(
+        "🚫 **NENHUM ESTADO SELECIONADO**\n\n"
+        "Use o painel de filtros à esquerda e selecione pelo menos um estado (UF) "
+        "para visualizar os indicadores."
+    )
+    st.stop()
 
 # ================================
 # KPIs – INDICADORES RÁPIDOS
@@ -145,8 +370,41 @@ fig_bar = px.bar(
 
 fig_bar.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
 fig_bar.update_layout(yaxis_title="% de pessoas com diagnóstico de depressão")
+fig_bar = aplica_estilo_fig(fig_bar)
 
 st.plotly_chart(fig_bar, use_container_width=True)
+
+# ================================
+# 👥 COMPARAÇÃO POR SEXO (MÉDIA)
+# ================================
+
+df_sexo_comp = df[
+    (df["UF"].isin(ufs_sel))
+    & (df["faixa_idade"] == faixa_sel)
+]
+
+df_sexo_comp = df_sexo_comp[df_sexo_comp["sexo"].isin(["Masculino", "Feminino"])]
+
+if not df_sexo_comp.empty and df_sexo_comp["sexo"].nunique() > 1:
+    df_sexo_media = (
+        df_sexo_comp.groupby("sexo", as_index=False)["valor"].mean()
+    )
+
+    st.subheader("👥 Comparação da prevalência por sexo\n(média nos estados selecionados)")
+    fig_sexo = px.bar(
+        df_sexo_media,
+        x="sexo",
+        y="valor",
+        labels={"sexo": "Sexo", "valor": "% com diagnóstico de depressão"},
+        text="valor",
+    )
+    fig_sexo.update_traces(texttemplate="%{text:.1f}%", textposition="outside")
+    fig_sexo.update_layout(yaxis_title="% de pessoas com diagnóstico de depressão")
+    fig_sexo = aplica_estilo_fig(fig_sexo)
+
+    st.plotly_chart(fig_sexo, use_container_width=True)
+
+st.markdown("---")
 
 # ================================
 # 📋 TABELA DETALHADA DOS DADOS
@@ -170,7 +428,6 @@ st.markdown("---")
 
 st.subheader("🗺️ Mapa da prevalência de depressão por estado")
 
-# Coordenadas aproximadas das capitais (lat, lon)
 coords_uf = {
     "Rondônia": (-8.76, -63.90),
     "Acre": (-9.97, -67.81),
@@ -219,20 +476,24 @@ fig_map = px.scatter_geo(
 )
 
 fig_map.update_geos(
-    scope="south america",
+    projection_type="mercator",
     showcountries=True,
     countrycolor="rgba(255,255,255,0.3)",
-    projection_type="mercator",
+    lataxis_range=[-35, 6],
+    lonaxis_range=[-75, -34],
 )
 
 fig_map.update_layout(
-    margin=dict(l=0, r=0, t=0, b=0)
+    margin=dict(l=0, r=0, t=0, b=0),
+    height=550,
 )
+
+fig_map = aplica_estilo_fig(fig_map)
 
 st.plotly_chart(fig_map, use_container_width=True)
 
 st.markdown("---")
 st.info(
     "Este é o **painel inicial do NeuroPulse**. "
-    "Depois vamos incluir outros indicadores (ansiedade, TDAH, autismo, uso de medicamentos, acesso a serviços etc.)."
+    "Sobre indicadores de depressão, temos informações sobre a prevalência, tendência e evolução nos estados brasileiros."
 )

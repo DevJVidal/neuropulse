@@ -4,12 +4,12 @@ year,UF,sexo,faixa_idade,domicilio,transtorno,indicador,valor
 2019,Acre,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.0
 2019,Amazonas,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.2
 2019,Roraima,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,5.1
-2019,ParÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.1
-2019,AmapÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.5
+2019,Pará,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.1
+2019,Amapá,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.5
 2019,Tocantins,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.6
-2019,MaranhÃ£o,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,5.4
+2019,Maranhão,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,5.4
 2019,PiauÃ­,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.9
-2019,CearÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.1
+2019,Ceará,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.1
 2019,Rio Grande do Norte,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.5
 2019,ParaÃ­ba,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,7.6
 2019,Pernambuco,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.8
@@ -19,25 +19,25 @@ year,UF,sexo,faixa_idade,domicilio,transtorno,indicador,valor
 2019,Minas Gerais,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.7
 2019,EspÃ­rito Santo,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,11.3
 2019,Rio de Janeiro,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.1
-2019,SÃ£o Paulo,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,11.8
-2019,ParanÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.9
+2019,São Paulo,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,11.8
+2019,Paraná,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.9
 2019,Santa Catarina,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.1
 2019,Rio Grande do Sul,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,17.9
 2019,Mato Grosso do Sul,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,10.1
 2019,Mato Grosso,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.2
-2019,GoiÃ¡s,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,12.0
+2019,Goiás,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,12.0
 2019,Distrito Federal,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,9.4
 2019,RondÃ´nia,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.1
 2019,RondÃ´nia,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,0.0
 2019,Acre,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.5
 2019,Amazonas,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.9
 2019,Roraima,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.8
-2019,ParÃ¡,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.5
-2019,AmapÃ¡,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.0
+2019,Pará,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.5
+2019,Amapá,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.0
 2019,Tocantins,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.7
-2019,MaranhÃ£o,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.4
+2019,Maranhão,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.4
 2019,PiauÃ­,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,3.4
-2019,CearÃ¡,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,4.0
+2019,Ceará,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,4.0
 2019,Rio Grande do Norte,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,3.8
 2019,ParaÃ­ba,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,3.9
 2019,Pernambuco,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,2.5
@@ -47,25 +47,25 @@ year,UF,sexo,faixa_idade,domicilio,transtorno,indicador,valor
 2019,Minas Gerais,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,7.9
 2019,EspÃ­rito Santo,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.7
 2019,Rio de Janeiro,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,4.7
-2019,SÃ£o Paulo,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.7
-2019,ParanÃ¡,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,6.5
+2019,São Paulo,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.7
+2019,Paraná,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,6.5
 2019,Santa Catarina,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.6
 2019,Rio Grande do Sul,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,9.8
 2019,Mato Grosso do Sul,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,4.3
 2019,Mato Grosso,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,3.3
-2019,GoiÃ¡s,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.9
+2019,Goiás,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.9
 2019,Distrito Federal,Masculino,Total,Total,Depressão,depressao_diagnosticada_percentual,4.7
 2019,RondÃ´nia,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,12.8
 2019,RondÃ´nia,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,0.0
 2019,Acre,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,9.3
 2019,Amazonas,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.4
 2019,Roraima,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,7.3
-2019,ParÃ¡,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.6
-2019,AmapÃ¡,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,6.9
+2019,Pará,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,5.6
+2019,Amapá,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,6.9
 2019,Tocantins,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,10.4
-2019,MaranhÃ£o,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,8.2
+2019,Maranhão,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,8.2
 2019,PiauÃ­,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,10.0
-2019,CearÃ¡,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,11.6
+2019,Ceará,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,11.6
 2019,Rio Grande do Norte,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,12.6
 2019,ParaÃ­ba,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,10.7
 2019,Pernambuco,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,10.2
@@ -75,39 +75,146 @@ year,UF,sexo,faixa_idade,domicilio,transtorno,indicador,valor
 2019,Minas Gerais,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,18.8
 2019,EspÃ­rito Santo,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,16.3
 2019,Rio de Janeiro,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,10.8
-2019,SÃ£o Paulo,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,17.2
-2019,ParanÃ¡,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,20.5
+2019,São Paulo,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,17.2
+2019,Paraná,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,20.5
 2019,Santa Catarina,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,20.2
 2019,Rio Grande do Sul,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,25.0
 2019,Mato Grosso do Sul,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,15.1
 2019,Mato Grosso,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,12.7
-2019,GoiÃ¡s,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,17.7
+2019,Goiás,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,17.7
 2019,Distrito Federal,Feminino,Total,Total,Depressão,depressao_diagnosticada_percentual,13.5
-2019,RondÃ´nia,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,9.0
-2019,RondÃ´nia,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,0.0
-2019,Acre,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.0
-2019,Amazonas,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.2
-2019,Roraima,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,5.1
-2019,ParÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.1
-2019,AmapÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,4.5
-2019,Tocantins,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.6
-2019,MaranhÃ£o,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,5.4
-2019,PiauÃ­,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.9
-2019,CearÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.1
-2019,Rio Grande do Norte,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.5
-2019,ParaÃ­ba,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,7.6
-2019,Pernambuco,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.8
-2019,Alagoas,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.2
-2019,Sergipe,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.5
-2019,Bahia,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,6.3
-2019,Minas Gerais,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.7
-2019,EspÃ­rito Santo,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,11.3
-2019,Rio de Janeiro,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.1
-2019,SÃ£o Paulo,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,11.8
-2019,ParanÃ¡,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.9
-2019,Santa Catarina,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,13.1
-2019,Rio Grande do Sul,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,17.9
-2019,Mato Grosso do Sul,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,10.1
-2019,Mato Grosso,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,8.2
-2019,GoiÃ¡s,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,12.0
-2019,Distrito Federal,Total,Total,Total,Depressão,depressao_diagnosticada_percentual,9.4
+2019,RondÃ´nia,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,7.2
+2019,Acre,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,2.7
+2019,Amazonas,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.0
+2019,Roraima,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.8
+2019,Pará,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,1.7
+2019,Amapá,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.8
+2019,Tocantins,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.1
+2019,Maranhão,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,3.1
+2019,PiauÃ­,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,5.5
+2019,Ceará,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.5
+2019,Rio Grande do Norte,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.1
+2019,ParaÃ­ba,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,3.3
+2019,Pernambuco,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,3.6
+2019,Alagoas,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,2.6
+2019,Sergipe,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,4.0
+2019,Bahia,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,2.4
+2019,Minas Gerais,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,7.1
+2019,EspÃ­rito Santo,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,6.3
+2019,Rio de Janeiro,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,5.0
+2019,São Paulo,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,8.3
+2019,Paraná,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,8.2
+2019,Santa Catarina,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,7.4
+2019,Rio Grande do Sul,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,9.9
+2019,Mato Grosso do Sul,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,6.5
+2019,Mato Grosso,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,3.9
+2019,Goiás,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,6.0
+2019,Distrito Federal,Total,18 a 29 anos,Total,Depressão,depressao_diagnosticada_percentual,7.6
+2019,RondÃ´nia,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,9.9
+2019,Acre,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,7.6
+2019,Amazonas,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,4.0
+2019,Roraima,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,5.2
+2019,Pará,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,5.1
+2019,Amapá,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,3.7
+2019,Tocantins,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,7.4
+2019,Maranhão,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,6.7
+2019,PiauÃ­,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,7.6
+2019,Ceará,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,8.5
+2019,Rio Grande do Norte,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,10.7
+2019,ParaÃ­ba,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,8.9
+2019,Pernambuco,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,7.5
+2019,Alagoas,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,7.8
+2019,Sergipe,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,10.1
+2019,Bahia,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,7.2
+2019,Minas Gerais,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,15.8
+2019,EspÃ­rito Santo,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,13.4
+2019,Rio de Janeiro,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,8.9
+2019,São Paulo,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,12.5
+2019,Paraná,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,14.8
+2019,Santa Catarina,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,13.6
+2019,Rio Grande do Sul,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,19.3
+2019,Mato Grosso do Sul,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,11.5
+2019,Mato Grosso,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,9.6
+2019,Goiás,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,14.2
+2019,Distrito Federal,Total,30 a 59 anos,Total,Depressão,depressao_diagnosticada_percentual,10.4
+2019,RondÃ´nia,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,6.9
+2019,Acre,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,5.9
+2019,Amazonas,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,5.8
+2019,Roraima,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,3.4
+2019,Pará,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,5.1
+2019,Amapá,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,4.3
+2019,Tocantins,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,7.7
+2019,Maranhão,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,3.4
+2019,PiauÃ­,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,7.4
+2019,Ceará,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,13.0
+2019,Rio Grande do Norte,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,9.9
+2019,ParaÃ­ba,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,10.0
+2019,Pernambuco,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,9.9
+2019,Alagoas,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,5.5
+2019,Sergipe,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,9.6
+2019,Bahia,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,8.9
+2019,Minas Gerais,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,13.8
+2019,EspÃ­rito Santo,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,15.9
+2019,Rio de Janeiro,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,10.9
+2019,São Paulo,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,16.4
+2019,Paraná,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,18.8
+2019,Santa Catarina,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,16.8
+2019,Rio Grande do Sul,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,21.7
+2019,Mato Grosso do Sul,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,8.0
+2019,Mato Grosso,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,14.1
+2019,Goiás,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,14.0
+2019,Distrito Federal,Total,60 a 64 anos,Total,Depressão,depressao_diagnosticada_percentual,9.6
+2019,RondÃ´nia,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,10.9
+2019,Acre,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,9.7
+2019,Amazonas,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,6.6
+2019,Roraima,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,7.1
+2019,Pará,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,4.0
+2019,Amapá,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,10.7
+2019,Tocantins,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,9.3
+2019,Maranhão,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,6.8
+2019,PiauÃ­,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,7.1
+2019,Ceará,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,9.8
+2019,Rio Grande do Norte,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,7.0
+2019,ParaÃ­ba,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,9.5
+2019,Pernambuco,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,8.6
+2019,Alagoas,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,6.9
+2019,Sergipe,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,10.5
+2019,Bahia,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,10.2
+2019,Minas Gerais,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,16.4
+2019,EspÃ­rito Santo,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,9.5
+2019,Rio de Janeiro,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,8.5
+2019,São Paulo,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,11.2
+2019,Paraná,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,17.5
+2019,Santa Catarina,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,19.6
+2019,Rio Grande do Sul,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,19.5
+2019,Mato Grosso do Sul,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,10.6
+2019,Mato Grosso,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,10.6
+2019,Goiás,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,11.9
+2019,Distrito Federal,Total,65 a 74 anos,Total,Depressão,depressao_diagnosticada_percentual,5.8
+2019,RondÃ´nia,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.6
+2019,Acre,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,2.0
+2019,Amazonas,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,2.2
+2019,Roraima,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,4.1
+2019,Pará,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.4
+2019,Amapá,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,5.5
+2019,Tocantins,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,5.0
+2019,Maranhão,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,3.6
+2019,PiauÃ­,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,4.5
+2019,Ceará,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,10.7
+2019,Rio Grande do Norte,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.5
+2019,ParaÃ­ba,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.4
+2019,Pernambuco,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.2
+2019,Alagoas,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.1
+2019,Sergipe,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,8.5
+2019,Bahia,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,4.9
+2019,Minas Gerais,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,12.7
+2019,EspÃ­rito Santo,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.4
+2019,Rio de Janeiro,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,6.7
+2019,São Paulo,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,12.6
+2019,Paraná,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,14.8
+2019,Santa Catarina,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,11.8
+2019,Rio Grande do Sul,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,19.8
+2019,Mato Grosso do Sul,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,12.4
+2019,Mato Grosso,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,4.5
+2019,Goiás,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,13.5
+2019,Distrito Federal,Total,75 anos ou mais,Total,Depressão,depressao_diagnosticada_percentual,13.1
