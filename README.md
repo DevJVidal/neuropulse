@@ -1,3 +1,8 @@
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-green?style=for-the-badge&color=green)
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&color=blue)
+![Framework](https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge&color=red)
+
 # 🧠 NeuroPulse — Painel Interativo de Saúde Mental
 Análise da Prevalência de Depressão no Brasil (PNS/IBGE – 2019)
 
