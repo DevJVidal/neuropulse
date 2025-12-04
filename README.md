@@ -3,168 +3,168 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&color=blue)
 ![Framework](https://img.shields.io/badge/Framework-Streamlit-red?style=for-the-badge&color=red)
 
-# 🧠 NeuroPulse — Painel Interativo de Saúde Mental
-Análise da Prevalência de Depressão no Brasil (PNS/IBGE – 2019)
+# 🧠 NeuroPulse — Interactive Mental Health Dashboard
+Analysis of the Prevalence of Depression in Brazil (PNS/IBGE – 2019)
 
-📊 Projeto Acadêmico – Disciplina de Big Data em Python
-
----------------------------------------------------------------------------------------------------------------------------
-
-
-## 📘 Sobre o Projeto
-
-O NeuroPulse é um painel interativo desenvolvido em Python com uso de Streamlit, criado para analisar a prevalência de depressão diagnosticada por profissional de saúde mental no Brasil.
-Este projeto utiliza dados reais, extraídos diretamente do SIDRA/IBGE (PNS 2019), com foco em três dimensões:
-
-Unidades Federativas (UFs)
-
-Sexo (Masculino / Feminino / Total)
-
-Faixas etárias
-
-O objetivo principal é demonstrar, de forma visual e intuitiva, como a depressão está distribuída pela população brasileira — permitindo comparações, filtros e análises exploratórias de forma simples e interativa.
+📊 Academic Project – Big Data in Python Course
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-## 🎯 Finalidade do Projeto
+## 📘 About the Project
 
-Este projeto foi desenvolvido como parte da disciplina Big Data em Python, com os seguintes propósitos:
+NeuroPulse is an interactive dashboard developed in Python using Streamlit, created to analyze the prevalence of depression diagnosed by mental health professionals in Brazil.
+This project uses real data, extracted directly from SIDRA/IBGE (PNS 2019), focusing on three dimensions:
 
-Aplicar conceitos de ETL (Extract, Transform, Load) em dados reais.
+Federal Units (States)
 
-Trabalhar manipulação de dados com pandas.
+Sex (Male / Female / Total)
 
-Realizar transformações, correções e padronizações necessárias para limpeza de dados governamentais.
+Age ranges
 
-Criar visualizações interativas utilizando Plotly.
-
-Construir um dashboard completo com Streamlit, simulando um sistema real de análise de indicadores de saúde pública.
-
-Explorar dados oficiais relacionados à saúde mental, contribuindo para estudos e discussões sobre políticas públicas.
+The main objective is to demonstrate, in a visual and intuitive way, how depression is distributed throughout the Brazilian population — allowing for simple and interactive comparisons, filters, and exploratory analyses.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-## 📊 Dados Utilizados (Fontes Oficiais)
+## 🎯 Project Purpose
 
-Todos os dados utilizados são reais, provenientes do:
+This project was developed as part of the Big Data in Python course, with the following purposes:
 
-SIDRA/IBGE — Pesquisa Nacional de Saúde (PNS – 2019)
+Apply ETL (Extract, Transform, Load) concepts to real data.
 
-Dados trabalhados:
+Working with data manipulation using pandas.
 
-Diagnóstico de depressão por profissional de saúde mental (%)
+Perform the necessary transformations, corrections, and standardizations for cleaning government data.
 
-Distribuição por UF
+Create interactive visualizations using Plotly.
 
-Distribuição por sexo
+Build a complete dashboard with Streamlit, simulating a real-world system for analyzing public health indicators.
 
-Distribuição por faixa etária (18 a 29 anos, 30 a 59 anos, etc.)
-
-Os arquivos CSV foram tratados em um pipeline ETL desenvolvido especialmente para este projeto.
+To explore official data related to mental health, contributing to studies and discussions on public policies.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-## 🛠️ Tecnologias Utilizadas
-Linguagem:
+## 📊 Data Used (Official Sources)  
+
+All data used is real and comes from:
+
+SIDRA/IBGE — National Health Survey (PNS – 2019)
+
+Data worked:
+
+Diagnosis of depression by a mental health professional (%)
+
+Distribution by UF
+
+Distribution by sex
+
+Distribution by age group (18 to 29 years, 30 to 59 years, etc.)
+
+The CSV files were processed in an ETL pipeline developed specifically for this project.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+## 🛠️ Technologies Used
+**Language:**  
 
 Python 3
 
-Bibliotecas Principais:
+**Main Libraries:**
 
-Streamlit — criação do painel interativo
+Streamlit — creating the interactive panel
 
-Pandas — limpeza, transformação e manipulação de dados
+Pandas — data cleaning, transformation, and manipulation
 
-Plotly Express — gráficos interativos (barras e mapas)
+Plotly Express — interactive charts (bar and map charts)
 
-Pathlib — organização dos diretórios
+Pathlib — directory organization
 
-Unicodedata — padronização dos nomes dos estados (UFs)
-
----------------------------------------------------------------------------------------------------------------------------
-
-## 🔄 Pipeline ETL Utilizado
-
-O arquivo etl_neuropulse.py realiza:
-
-Extração dos CSVs brutos do SIDRA.
-
-Limpeza e padronização:
-
-remoção de colunas “Notas”
-
-remoção de linhas com metadados
-
-padronização de UFs
-
-conversão de números no padrão BR → padrão US
-
-Transformação:
-
-unificação dos dados de sexo
-
-unificação dos dados de faixa etária
-
-consolidação dos datasets em uma base única
-
-Carga:
-
-Geração do arquivo final:
-neuropulse_pns_depressao.csv
-
-Esse arquivo é utilizado pelo dashboard para alimentar as visualizações.
+Unicodedata — standardization of state names (UFs)
 
 ---------------------------------------------------------------------------------------------------------------------------
 
+## 🔄 ETL Pipeline Used
 
-##📍 Principais Funcionalidades do Dashboard
+The etl_neuropulse.py file performs the following:
 
-Filtro por estado (UF)
+Extraction of raw CSVs from SIDRA.
 
-Filtro por sexo
+Cleaning and standardization:
 
-Filtro por faixa etária
+Removing "Notes" columns
 
-Gráfico de barras por estado
+removing rows with metadata
 
-Comparação entre sexos
+standardization of Brazilian states
 
-Mapa interativo da prevalência de depressão no Brasil
+Number conversion from BR standard to US standard.
 
-Tabela completa dos dados filtrados
+Transformation:
 
-Interface totalmente estilizada com CSS customizado
+unification of sex data
+
+unification of age range data
+
+Consolidation of datasets into a single database.
+
+Load:
+
+Final file generation:
+neuropulse_pns_depressao.csv  
+
+This file is used by the dashboard to populate the visualizations.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
 
-## 🌎 Possíveis Aplicações
+##📍 Main Features of the Dashboard  
 
-O NeuroPulse pode ser utilizado para:
+Filter by state (UF)
 
-Estudos acadêmicos sobre saúde mental
+Filter by gender
 
-Análises de desigualdades regionais
+Filter by age group
 
-Suporte a políticas públicas
+Bar chart by state
 
-Monitoramento da prevalência de depressão na população adulta
+Comparison between sexes
 
-Demonstração de habilidades em manipulação de dados e visualização interativa
+Interactive map of depression prevalence in Brazil.
+
+Full table of filtered data
+
+Fully styled interface with custom CSS.
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-## 📌 Conclusão
 
-O NeuroPulse demonstra como dados públicos podem ser transformados em informações visualmente claras e úteis para tomada de decisão.
-Além do foco técnico em Big Data e Python, o projeto também destaca a importância da análise de dados de saúde mental no Brasil.
+## 🌎 Possible Applications
+
+NeuroPulse can be used for:
+
+Academic studies on mental health
+
+Analyses of regional inequalities  
+
+Support for public policies
+
+Monitoring the prevalence of depression in the adult population.
+
+Demonstration of skills in data manipulation and interactive visualization.
+
 ---------------------------------------------------------------------------------------------------------------------------
 
-## 👨‍💻 Autor
+## 📌 Conclusion
+
+NeuroPulse demonstrates how public data can be transformed into visually clear and useful information for decision-making.
+In addition to its technical focus on Big Data and Python, the project also highlights the importance of analyzing mental health data in Brazil.
+---------------------------------------------------------------------------------------------------------------------------
+
+## 👨‍💻 Author
 
 Janderson Dias
 
-Projeto desenvolvido para a disciplina **Big Data em Python**
+Project developed for the **Big Data in Python** course.
